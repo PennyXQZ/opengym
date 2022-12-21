@@ -10,7 +10,7 @@ if(NOT ZMQ_FOUND)
     return()
 endif()
 
-find_package(Protobuf 3.0.0)
+find_package(Protobuf 3.6.1)
 if(NOT Protobuf_FOUND)
     message(STATUS "protobuf not found")
   return()

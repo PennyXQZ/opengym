@@ -1,13 +1,13 @@
-build_lib_example(
-  NAME interference-pattern
-  SOURCE_FILES interference-pattern/mygym.cc
-               interference-pattern/sim.cc
-  LIBRARIES_TO_LINK
-    ${libcore}
-    ${libinternet}
-    ${libopengym}
-    ${libwifi}
-)
+# build_lib_example(
+#   NAME interference-pattern
+#   SOURCE_FILES interference-pattern/mygym.cc
+#                interference-pattern/sim.cc
+#   LIBRARIES_TO_LINK
+#     ${libcore}
+#     ${libinternet}
+#     ${libopengym}
+#     ${libwifi}
+# )
 
 build_lib_example(
   NAME linear-mesh
